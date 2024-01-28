@@ -11,7 +11,7 @@
  
   - <a href= https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm target="_blank"> Desafio</a>
 
- - <a href= target="_blank"> Deployment no Github Pages</a>
+ - <a href= https://eduardolcfaria.github.io/recipe-page-main/ target="_blank"> Deployment no Github Pages</a>
  
  
 
