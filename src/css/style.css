@@ -1,0 +1,150 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cartao {
+    width: 725px;
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 25px;
+}
+
+.cartao .conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 35px;
+
+}
+
+.cartao .conteudo .sobre {
+    line-height: 25px;
+    
+}
+
+.cartao .conteudo .imagem_omelette {
+    border-radius: 10px;
+    margin: 5px auto 25px;
+    width: 100%;
+
+}
+
+.cartao .conteudo .titulo {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.cartao .conteudo .texto_preparo {
+    font-size: 18px;
+    color: hsl(332, 51%, 32%);
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 25px;
+
+}
+
+.cartao .conteudo .listas :first-child li {
+    padding: 5px 0px 5px 15px;
+    margin-left: 60px;
+    list-style-type: none;
+    position: relative;
+    font-size: 14px;
+
+}
+.cartao .conteudo .listas :first-child li b {
+color: hsl(30, 10%, 34%);
+}
+.cartao .conteudo .listas :first-child li::before {
+    content: '•';
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    color: hsl(332, 51%, 32%);
+}
+
+
+.cartao .conteudo .subtitulo {
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+
+}
+
+.cartao .conteudo .listas :last-child li {
+    padding: 5px 0px 5px 15px;
+    margin-left: 20px;
+    list-style-type: none;
+    position: relative;
+    font-size: 14px;
+}
+
+.cartao .conteudo .listas :last-child :nth-child(5) {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding-bottom: 35px;
+
+}
+
+.cartao .conteudo .listas :last-child li::before {
+    content: '•';
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+
+.cartao .conteudo .instrucao li {
+    padding-inline: 15px;
+    padding-top: 8px;
+    list-style: none;
+    line-height: 25px;
+
+}
+.cartao .conteudo .instrucao li b{
+color: hsl(30, 10%, 34%);
+}
+
+.cartao .conteudo .instrucao li::before {
+    content: counter(list-item) ". ";
+    font-weight: bold;
+    margin-right: 15px;
+    color: hsl(14, 45%, 36%);
+}
+
+.cartao .conteudo .nutricao .informacao_alimento li {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.cartao .conteudo .nutricao .informacao_alimento span {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    width: 45%;
+}
