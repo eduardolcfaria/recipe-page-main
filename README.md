@@ -22,4 +22,4 @@
 
 ## 🧑🏻‍💻 Contato
 - Linkedin: https://www.linkedin.com/in/eduardolcfaria
-- Instagram: https://www.instagram.com/eduardo.lcf_
+- Instagram: https://www.instagram.com/eduardo.lcf_/
